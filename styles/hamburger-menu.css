@@ -1,0 +1,51 @@
+
+.menu-item{
+    @apply w-full text-2xl text-white leading-normal hover:text-gray-400 
+  }
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    width: 36px;
+    height: 30px;
+}
+
+/* Position and sizing of cross button */
+.bm-cross-button {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+/* Sidebar wrapper styles SHOULD NOT BE TOUCHED!!!*/
+.bm-menu-wrap {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: #000000;
+    padding: 2.5em 1em 0;
+    font-size: 1.15em; 
+}
+
+/* Wrapper for item list */ /* style item list container*/
+.bm-item-list {
+    color: #b8b7ad;
+    @apply flex flex-col justify-start items-start gap-2.5;
+}
+
+/* Individual item */
+.bm-item {
+    display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
