@@ -13,7 +13,7 @@ interface NavButtonProps{
 const NavButton = ({children, href, containerStyles, btnType,
                        textStyles, rightIcon}: NavButtonProps) => {
   return (
-    <Link href={href} className="size-fit flex">
+    <Link href={href} className="size-fit flex relative">
       <button disabled = {false}
       type={btnType || "button"}
       className= {'nav-btn ' + containerStyles}>

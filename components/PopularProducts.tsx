@@ -10,8 +10,8 @@ const PopularProducts = () => {
                 <h3 className="info-text text-base">Where price meets quality</h3>
                 <h1 className="section-text">Popular Products</h1>
                 <p className="info-text mt-10 max-w-[400px] max-sm:text-center">See some of our best selling products which are loved by thousands</p>
-                <NavButton href="/products" textStyles="text-xl text-black" 
-                        containerStyles="special-bg sm:mt-24 mt-12 sm:flex max-sm:hidden">
+                <NavButton href="/products" textStyles=" text-xl text-black" 
+                containerStyles="hover:scale-105 duration-200 special-bg sm:mt-24 mt-12 sm:flex max-sm:hidden">
                     See More
                 </NavButton>
             </div>

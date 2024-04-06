@@ -6,6 +6,8 @@ import Services from "./Services";
 import PopularProducts from "./PopularProducts";
 import ProductSlider from "./ProductSlider";
 import Lifestyle from "./Lifestyle";
+import Subscribe from "./Subscribe";
+import Footer from "./Footer";
 
 export{
     Navbar,
@@ -15,5 +17,7 @@ export{
     Services,
     PopularProducts,
     ProductSlider,
-    Lifestyle
+    Lifestyle,
+    Subscribe,
+    Footer
 }

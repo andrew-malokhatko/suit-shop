@@ -17,7 +17,8 @@ const Hero = () => {
                     -Tristan Tate 
                     </p>
                 </h3>
-                <NavButton href="/products" textStyles="text-xl text-black" containerStyles="special-bg mt-24">
+                <NavButton href="/products" textStyles="text-xl text-black"
+                 containerStyles="special-bg hover:scale-105 duration-200 mt-24">
                     Shop Now
                 </NavButton>
             </div>
