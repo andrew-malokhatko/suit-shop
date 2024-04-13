@@ -8,6 +8,8 @@ import ProductSlider from "./ProductSlider";
 import Lifestyle from "./Lifestyle";
 import Subscribe from "./Subscribe";
 import Footer from "./Footer";
+import Review from "./Review";
+import { Reveal } from "./Reveal";
 
 export{
     Navbar,
@@ -19,5 +21,7 @@ export{
     ProductSlider,
     Lifestyle,
     Subscribe,
-    Footer
+    Footer,
+    Review,
+    Reveal
 }

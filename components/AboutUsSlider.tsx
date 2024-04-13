@@ -1,42 +1,26 @@
 "use client"
 
 import { aboutUsData } from "@/constants";
-import Slider from "react-slick";
-import "../node_modules/slick-carousel/slick/slick.css";
-import "../node_modules/slick-carousel/slick/slick-theme.css";
+import {Swiper, SwiperSlide} from 'swiper/react'
+import { Autoplay, Navigation, Pagination} from 'swiper/modules'
 import { NavButton } from ".";
 
+import "swiper/css"
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 
-function AboutUsSlider() { //react slick slider
-    const settings = {
-        dots: true,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        initialSlide: 0,
-        responsive: [
-            {
-              breakpoint: 720,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-              }
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            }
-          ]
-      };
+function AboutUsSlider() {
   return (
     <div className="relative w-full h-full">
-      <Slider {...settings}>
-        <div className='!flex flex-col justify-center items-center py-12'>
+      <Swiper modules={[Navigation, Pagination, Autoplay]}
+        slidesPerView={1}
+        navigation
+        loop
+        autoplay={{ delay: 2500 }}
+        pagination={{ clickable: true }}
+        className='w-full h-full lg:!hidden'
+        >
+        <SwiperSlide className='!flex flex-col justify-center items-center py-12'>
             <h1 className='section-text text-center'>
                 Why are we here?
             </h1>
@@ -48,9 +32,9 @@ function AboutUsSlider() { //react slick slider
                                      textStyles='special-text text-lg'>
                 Learn More
             </NavButton>
-        </div>
+        </SwiperSlide>
 
-        <div className='!flex flex-col justify-center items-center py-12'>
+        <SwiperSlide className='!flex flex-col justify-center items-center py-12'>
             <h1 className='section-text text-center'>
                 Who are we?
             </h1>
@@ -62,9 +46,9 @@ function AboutUsSlider() { //react slick slider
                                      textStyles='special-text text-lg'>
                 Learn More
             </NavButton>
-        </div>
+        </SwiperSlide>
 
-        <div className='!flex flex-col justify-center items-center py-12'>
+        <SwiperSlide className='!flex flex-col justify-center items-center py-12'>
             <h1 className='section-text text-center'>
                 What we get you?
             </h1>
@@ -76,8 +60,8 @@ function AboutUsSlider() { //react slick slider
                                      textStyles='special-text text-lg'>
                 Learn More
             </NavButton>
-        </div>
-      </Slider>
+        </SwiperSlide>
+      </Swiper>
     </div>
   );
 }

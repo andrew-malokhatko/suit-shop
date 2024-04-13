@@ -6,7 +6,7 @@ import generation from '@/public/icons/generation.svg';
 export const navLinks = [
     { href: "#about-us", label: "About Us" },
     { href: "#products", label: "Order a Suit" },
-    { href: "#testimonials", label: "Experiences" },
+    { href: "/stories", label: "Experiences" },
     { href: "#services", label: "Services" },
     { href: "#newsletter", label: "Newsletter" },
 ];
@@ -84,3 +84,10 @@ export const footerLinks = [
         ],
     },
 ];
+
+export const reviews = [
+    {image:"/images/mib.jpg", name:"Thomas Shelby", text:"As the grandson of a distinguished diplomat, Thomas has always been drawn to tradition and legacy. When it came time to purchase a suit for his own diplomatic endeavors, he knew he needed something more thching—he needed a piece of hiura of craftsmanship and heritage. As he ran hcit suits before him. Choosing Wsuit wasn't just about buying a suit; it was about honoring his family's legacy and embracing the enduring quality that only "},
+    {image:"/images/mib1.jpg", name:"Andrew Malokhatko", text:"As a connoisseur of fine craftsmanship, Elizabeth's standards were exceptionally high. When it came to selecting a suit for her upcoming executive conference, she knew she couldn't settle for anythinys been whispered about in elite circles for its unparaail and unthe showroom, Elizabeth felt a sense of anticipation. As she had found her match. Choosing Wsuit wasn't just about buying a suit; it was about indulging in the pinnacle "},
+    {image:"/images/mib2.jpg", name:"Javier Francis", text:"As an influencer in the world of fashion, Javier was constantly on the lookout for pieces that would set him apart from the crowd. When it came time to refresh his wardrobe for the upcoming fashion week, hded something bold and distinctive. Wsuit had aith its reputat with modon a daringly patterned suit that seemed to capture his essence perfectly, he knew he had found his statement piece. Choosing Wsuit wasn't just about buying a"},
+    {image:"/images/mib3.jpg", name:"Dmitriy Gordon", text:"As a hopeless romantic with a penchant for bygone eras, Emily had always been drawn to the elegance and sophistication of vintage fashion. When it came time to choose a suit for her wedding day, she knew she wanted timeless glamour of old Hollywood. Wsuirving the classic styles of yestored suits and luxurious fabrics that lined the racks. As she slipped into a sleek ivory suit that seemed to have been plucked straight from a silver "}
+]

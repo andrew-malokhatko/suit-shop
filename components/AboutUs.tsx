@@ -38,7 +38,7 @@ const AboutUs = () => {
             </div>
         </div>
 
-        <div className='max-sm:hidden absolute inset-[15%]'>
+        <div className='max-lg:hidden absolute inset-[15%]'>
             <Image src="/images/G.png" alt="G background Image" fill className='object-contain'/>
         </div>
         {/*PC only End*/}

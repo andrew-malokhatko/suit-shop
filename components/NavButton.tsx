@@ -8,7 +8,7 @@ interface NavButtonProps{
     containerStyles?: string;
     textStyles?: string;
     rightIcon?: string;
-}   
+}
 
 const NavButton = ({children, href, containerStyles, btnType,
                        textStyles, rightIcon}: NavButtonProps) => {

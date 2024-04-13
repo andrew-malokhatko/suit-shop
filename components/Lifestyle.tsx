@@ -11,7 +11,7 @@ const Lifestyle = () => {
           <p className='p-5 lg:p-12 info-text text-white font-light text-center'>
             Learn mindblowing stories of our customers
           </p>
-          <NavButton href='#home' containerStyles='hover:scale-105 duration-200 border border-white' textStyles='text-lg'>
+          <NavButton href='/stories' containerStyles='hover:scale-105 duration-200 border border-white' textStyles='text-lg'>
             See Stories
           </NavButton>
       </div>
